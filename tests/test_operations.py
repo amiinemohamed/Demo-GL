@@ -1,4 +1,10 @@
 from calculator.operations import add
+import pytest
+
+
+def test_add_invalid_type():
+    with pytest.raises(TypeError):
+        add("2", 3)
 
 
 def test_add_positive():
