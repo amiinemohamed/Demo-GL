@@ -1,0 +1,8 @@
+__pycache__/
+.coverage
+coverage.xml
+report.xml
+htmlcov/
+public/
+dist/
+*.egg-info/
